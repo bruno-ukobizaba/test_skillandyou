@@ -7,11 +7,17 @@ Ce projet est composé d'une application frontend et backend. Suivez les instruc
 
 ## Prérequis
 
-- Node.js
+- Node.js 20 au maximum. Ne pas utiliser la version 22
 - npm
 - Git
 
 ## Installation et Configuration
+
+- Vérifiez la version de node
+
+```bash
+node -v
+```
 
 ### Configuration Initiale
 
@@ -33,7 +39,7 @@ cd backend
 
 - Créez un fichier `.env` à la racine du dossier backend
 - Copiez le contenu de `.env.example` dans votre nouveau fichier `.env`
-- Modifiez les variables selon votre configuration
+- Modifiez les variables selon votre configuration et penser à décommenter les variables "APP_KEYS" et "API_TOKEN_SALT"
 
 3. Installez les dépendances :
 
@@ -48,6 +54,8 @@ npm run develop
 ```
 
 Le serveur backend sera accessible à l'adresse : `http://localhost:1337`
+
+5. Connectez-vous avec le login "bruno@mail.com" et password "Strapi1234"
 
 ### Frontend en Nextjs 15
 
