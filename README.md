@@ -39,7 +39,7 @@ cd backend
 
 - Créez un fichier `.env` à la racine du dossier backend
 - Copiez le contenu de `.env.example` dans votre nouveau fichier `.env`
-- Modifiez les variables selon votre configuration et penser à décommenter les variables "APP_KEYS" et "API_TOKEN_SALT"
+- Décommentez les lignes
 
 3. Installez les dépendances :
 
@@ -69,7 +69,7 @@ cd frontend
 
 - Créez un fichier `.env` à la racine du dossier frontend
 - Copiez le contenu de `.env.example` dans votre nouveau fichier `.env`
-- Modifiez les variables selon votre configuration
+- Décommentez les lignes
 
 3. Installez les dépendances :
 
