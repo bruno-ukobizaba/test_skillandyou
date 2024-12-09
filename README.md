@@ -90,3 +90,5 @@ npm run dev
 ```
 
 L'application frontend sera accessible à l'adresse : `http://localhost:3000`
+
+5. Si les images ne se chargent pas, vous pouvez les changer dans l'admin
